@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Como criar um repositório e enviá-lo ao GitHub</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./repository.ico">
+</head>
+
+<body>
+    <header>
+        <h1>Como criar um repositório e enviá-lo ao GitHub</h1>
+    </header>
+    <main>
+        <section>
+            <h2>1. Criar um repositório no GitHub</h2>
+            <ul>
+                <li>Acesse o GitHub e faça login.</li>
+                <li>Clique em "New repository" ou no botão "+".</li>
+                <li>Escolha um nome para o repositório e configure a visibilidade.</li>
+                <li>Clique em "Create repository".</li>
+            </ul>
+        </section>
+        <section>
+            <h2>2. Preparar seu projeto localmente</h2>
+            <ul>
+                <li>No terminal, navegue até a pasta onde está seu projeto.</li>
+                <li>Inicie o Git no diretório com: <code>git init</code>.</li>
+            </ul>
+        </section>
+        <section>
+            <h2>3. Adicionar e confirmar os arquivos</h2>
+            <ul>
+                <li>Adicione os arquivos ao Git com: <code>git add .</code>.</li>
+                <li>Confirme as alterações com: <code>git commit -m "Primeiro commit"</code>.</li>
+            </ul>
+        </section>
+        <section>
+            <h2>4. Conectar ao repositório remoto</h2>
+            <ul>
+                <li>Copie a URL do repositório do GitHub.</li>
+                <li>Conecte o repositório remoto com: <code>git remote add origin URL_DO_REPOSITORIO</code>.</li>
+            </ul>
+        </section>
+        <section>
+            <h2>5. Enviar os arquivos para o GitHub</h2>
+            <ul>
+                <li>Envie os arquivos para o repositório remoto com: <code>git push -u origin master</code>.</li>
+            </ul>
+        </section>
+    </main>
+</body>
+</html>
