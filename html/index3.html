@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Branch</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="icon" href="../repository.ico">
+</head>
+<body>
+    <header>
+        <h1>Criar, verificar e apontar para uma nova branch</h1>
+    </header>
+
+    <main>
+        <section>
+            <h2>1. Para criar uma nova branch</h2>
+            <ul>
+                <li>Use o comando: <code>git branch nome-da-branch</code></li>
+                <li>Isso criará uma nova branch, mas você ainda estará na branch atual.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>2. Verificar a lista de branches</h2>
+            <ul>
+               <li>Para ver todas as branches no seu repositório, use: <code>git branch</code></li>
+               <li>A branch ativa será marcada com um asterisco (*).</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>3. Mudar para a nova branch</h2>
+            <ul>
+               <li>Para trocar para a nova branch e começar a trabalhar nela: <code>git checkout nome-da-branch</code></li>
+               <li>Ou, se estiver usando Git versão 2.23 ou superior, pode usar: <code>git switch nome-da-branch</code></li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>4. Criar e já mudar para a nova branch (atalho)</h2>
+            <ul>
+               <li>Em um único comando, crie e mude para a nova branch: <code>git checkout -b nome-da-branch</code></li>
+               <li>Ou, para versões mais recentes do Git: <code>git switch -c nome-da-branch</code></li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>5. Se precisar enviá-la para um repositório remoto</h2>
+            <ul>
+               <li>Use: <code>git push --set-upstream origin nome-da-branch</code></li>
+            </ul>
+        </section>
+</body>
+</html>
